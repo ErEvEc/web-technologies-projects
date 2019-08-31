@@ -1,0 +1,224 @@
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+.parallax {
+    -webkit-perspective: 1px;
+    perspective: 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+
+
+.layer {
+    position: relative;
+    height: 100vh;
+}
+.base {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+}
+
+.front {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+#snow1 {
+
+    position: absolute;
+    top: -201px;
+    left: -218px;
+    }
+
+#snow6 {
+    position: absolute;
+    top: 1435px;
+    left: -360px;
+    }
+
+#title {
+    position: absolute;
+    top: -820px;
+    left: 100px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+
+}
+
+#menu {
+    position: absolute;
+    top: -820px;
+    left: 570px;
+    text-align: center;
+
+}
+
+.tab {
+    width: 70px;
+    height: 40px;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+
+}
+
+#slogan {
+    position: absolute;
+    top: -650px;
+    left: 400px;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+
+}
+
+.contentWhite {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 2;
+
+}
+
+#content1 {
+    position: absolute;
+    top: -370px;
+    left: 290px;
+}
+
+#box {
+    position: absolute;
+    top: 20px;
+    left: 520px;
+    background-color: white;
+    width: 160px;
+    height: 60px;
+
+}
+
+#boxtext {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.heads {
+    font-family: century-gothic, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#arrow {
+    position: absolute;
+    top: 800px;
+    left: 580px;
+
+}
+
+.line {
+    border: 0;
+    background-color: white;
+    height: 2px;
+}
+
+#left {
+    transform: rotate(41deg);
+    -webkit-transform: rotate(41deg);
+    width: 24px;
+
+}
+
+#right{
+    position: absolute;
+    left: 17px;
+    transform: rotate(-41deg);
+    -webkit-transform: rotate(-41deg);
+    width: 25px;
+
+}
+
+#album {
+    position: absolute;
+    top: 1000px;
+    background-color: white;
+    height: 1475px;
+    width: 1200px;
+}
+
+
+.container {
+    width: 490px;
+    height: 490px;
+}
+
+#ct2 {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    background-image: url("http://csci571.com/hw/hw3/images/snow2.jpg");
+    background-position:center;
+
+}
+
+#ct3 {
+    position: absolute;
+    left: 610px;
+    top: 100px;
+    background-image: url("http://csci571.com/hw/hw3/images/snow3.jpg");
+    background-position:center;
+
+}
+
+#ct4 {
+    position: absolute;
+    left: 100px;
+    top: 610px;
+    background-image: url("http://csci571.com/hw/hw3/images/snow4.jpg");
+    background-position:center;
+
+}
+
+#ct5 {
+    position: absolute;
+    left: 610px;
+    top: 610px;
+    background-image: url("http://csci571.com/hw/hw3/images/snow5.jpg");
+    background-position:center;
+
+}
+
+#content2{
+    position: absolute;
+    top: 1200px;
+    left: 360px;
+    color: grey;
+    font-size: 15px;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+#content3{
+    position: absolute;
+    top: 2880px;
+    left: 360px;
+
+}
+ #bottom {
+    position: absolute;
+    top: 2673px;
+    height: 100px;
+    width: 1200px;
+    background-color: white;
+ }
