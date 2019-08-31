@@ -1,0 +1,118 @@
+{
+  "Mainline": {
+    "Table": {
+      "Header": {
+        "Data": [
+          "Title",
+          "Year",
+          "Info",
+          "Worldwide Gross",
+          "Wiki Page",
+          "Logo"
+        ]
+      },
+      "Row": [
+          
+        {
+          "Title": "Avatar",
+          "Year": "2009",
+          "Hubs": {
+            "Hub": [
+              "Directed by James Cameron",
+              "Avatar, marketed as James Cameron's Avatar, is a 2009 American[8][9] epic science fiction film directed, written, produced, and co-edited by James Cameron, and stars Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium, a room-temperature superconductor."
+            ]
+          },
+          "Gross": "$2,787,965,087",
+          "HomePage": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+          "Logo": "http://csci571.com/hw/hw4/avatar.jpg"
+        },
+          
+        {
+          "Title": "Titanic",
+          "Year": "1997",
+          "Hubs": {
+            "Hub": [
+              "Directed by James Cameron",
+              "Titanic is a 1997 American epic romance and disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage."
+            ]
+          },
+          "Gross": "2,187,463,944",
+          "HomePage": "https://en.wikipedia.org/wiki/Titanic_(1997_film)",
+          "Logo": "http://csci571.com/hw/hw4/titanic.jpg"
+        },  
+          
+          
+        {
+          "Title": "Star Wars: The Force Awakens",
+          "Year": "2015",
+          "Hubs": {
+            "Hub": [
+              "Directed by J. J. Abrams",
+              "Star Wars: The Force Awakens (also known as Star Wars: Episode VII – The Force Awakens) is a 2015 American epic space opera film produced, co-written and directed by J. J. Abrams. It is the first installment of the Star Wars sequel trilogy and the seventh installment of the main Star Wars film franchise, following Return of the Jedi (1983). The film stars Harrison Ford, Mark Hamill, Carrie Fisher, Adam Driver, Daisy Ridley, John Boyega, Oscar Isaac, Lupita Nyong'o, Andy Serkis, Domhnall Gleeson, Anthony Daniels, Peter Mayhew, and Max von Sydow, and was produced by Lucasfilm Ltd. and Abrams's production company Bad Robot Productions. "
+            ]
+          },
+          "Gross": "$2,068,223,624",
+          "HomePage": "https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens",
+          "Logo": "http://csci571.com/hw/hw4/starwars.jpg"
+        },          
+          
+        {
+          "Title": "Avengers: Infinity War",
+          "Year": "2016",
+          "Hubs": {
+            "Hub": [
+              "Directed by Anthony Russo, Joe Russo",
+              "Avengers: Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the Avengers, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to 2012's The Avengers and 2015's Avengers: Age of Ultron, and the nineteenth film in the Marvel Cinematic Universe (MCU). The film is directed by Anthony and Joe Russo, written by Christopher Markus and Stephen McFeely, and features an ensemble cast including Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Benedict Cumberbatch, Don Cheadle, Tom Holland, Chadwick Boseman, Paul Bettany, Elizabeth Olsen, Anthony Mackie, Sebastian Stan, Danai Gurira, Letitia Wright, Dave Bautista, Zoe Saldana, Josh Brolin, and Chris Pratt."
+            ]
+          },
+          "Gross": "$2,048,709,917",
+          "HomePage": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+          "Logo": "http://csci571.com/hw/hw4/infinitywar.jpg"
+        }, 
+          
+        {
+          "Title": "Jurassic World",
+          "Year": "2015",
+          "Hubs": {
+            "Hub": [
+              "Directed by Colin Trevorrow",
+              "Jurassic World is a 2015 American science fiction adventure film, the fourth installment of the Jurassic Park film series, and the first film in a planned Jurassic World trilogy. It was directed by Colin Trevorrow, written by Derek Connolly and Trevorrow, produced by Frank Marshall and Patrick Crowley, and stars Chris Pratt, Bryce Dallas Howard, Vincent D'Onofrio, Ty Simpkins, Nick Robinson, Omar Sy, BD Wong, and Irrfan Khan."
+            ]
+          },
+          "Gross": "$1,671,713,208",
+          "HomePage":"",
+          "Logo": "http://csci571.com/hw/hw4/jurassicworld.jpg"
+        },  
+          
+        {
+          "Title": "The Avengers",
+          "Year": "2012",
+          "Hubs": {
+            "Hub": [
+              "Directed by Joss Whedon",
+              "Marvel's The Avengers (classified under the name Marvel Avengers Assemble in the United Kingdom and Ireland), or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sixth film in the Marvel Cinematic Universe (MCU). The film was written and directed by Joss Whedon and features an ensemble cast that includes Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, and Jeremy Renner as the titular Avengers team, alongside Tom Hiddleston, Clark Gregg, Cobie Smulders, Stellan Skarsgård, and Samuel L. Jackson. In the film, Nick Fury, director of the spy agency S.H.I.E.L.D., recruits Tony Stark, Captain America, the Hulk, and Thor to form a team that must stop Thor's brother Loki from subjugating Earth."
+            ]
+          },
+          "Gross": "$1,518,812,988",
+          "HomePage": "https://en.wikipedia.org/wiki/The_Avengers_(2012_film)",
+          "Logo": "http://csci571.com/hw/hw4/theavengers.jpg"
+        },   
+        
+        {
+          "Title": "Furious 7",
+          "Year": "20115",
+          "Hubs": {
+            "Hub": [
+              "Directed by James Wan",
+              "Furious 7 (alternatively known as Fast &amp; Furious 7 and Fast Seven) is a 2015 American action film directed by James Wan and written by Chris Morgan. It is the seventh installment in The Fast and the Furious franchise. The film stars Vin Diesel, Paul Walker, Dwayne Johnson, Michelle Rodriguez, Tyrese Gibson, Chris Ludacris Bridges, Jordana Brewster, Djimon Hounsou, Kurt Russell, and Jason Statham. Furious 7 follows Dominic Toretto (Diesel), Brian O'Conner (Walker), and the rest of their team, who have returned to the United States to live normal lives after securing amnesty for their past crimes in Fast & Furious 6 (2013), until Deckard Shaw (Statham), a rogue special forces assassin seeking to avenge his comatose younger brother, puts the team in danger once again."
+            ]
+          },
+          "Gross": "$1,516,045,911",
+          "HomePage": "https://en.wikipedia.org/wiki/Furious_7",
+          "Logo": "http://csci571.com/hw/hw4/furious7.jpg"
+        }    
+        
+      ]
+    }
+  }
+}

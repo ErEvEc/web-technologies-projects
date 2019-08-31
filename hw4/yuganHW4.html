@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>yuganHW4</title>
+        <style>
+            div {
+                text-align: center;
+            }
+
+            h2 {
+                position: absolute;
+                top: 180px;
+                left: 30%;
+            }
+
+            form {
+                position: absolute;
+                top: 250px;
+                left: 40%;
+                line-height: 2;
+            }
+        </style>
+    </head>
+
+    <body>
+        <script type="text/javascript">
+            
+            function viewJSON(what){
+                var URL =what.URL.value;
+
+                function loadJSON(url) {
+                    if (window.XMLHttpRequest) {
+                        xmlhttp=new XMLHttpRequest(); 
+                    } else {
+                        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP"); 
+                    }
+                    
+                    xmlhttp.open("GET",url,false);
+                    try {
+                        xmlhttp.send(null); 
+                    } catch(err) {
+                        alert("XMLHttprequest error: " + URL + " " + err.description);
+                    }
+                    jsonDoc=JSON.parse(xmlhttp.responseText); 
+                    return jsonDoc;
+                    }
+                jsonObj = loadJSON(URL);
+
+                if (window.ActiveXObject){
+                    if (jsonObj.parseError.errorCode != 0) {
+                        var myErr = jsonObj.parseError;
+                        generateError(jsonObj);
+                        hWin = window.open("", "Error", "height=300,width=340"); 
+                        hWin.document.write(html_text);
+                    } else {
+                        generateHTML(jsonObj);
+                        hWin = window.open("", "Assignment4", "height=950,width=1060"); 
+                        hWin.document.write(html_text); 
+                    }
+                }else {
+                    jsonObj.onload=generateHTML(jsonObj);
+                    hWin = window.open("", "Assignment4", "height=4000,width=2400"); 
+                    hWin.document.write(html_text); 
+                } 
+                hWin.document.close();
+
+                function generateHTML(jsonObj) {
+
+                    root=jsonObj.DocumentElement;
+                    html_text="<html><head><title>JSON Parse Result</title>";
+                    html_text+="<style type=\"text/css\">td {height: 100px;}</style>";
+                    html_text+="</head><body>";
+                    html_text+="<table border='2' style=\"font-size: 13px;\">";
+
+                    head = jsonObj.Mainline.Table.Header.Data;
+                    movies=jsonObj.Mainline.Table.Row;
+                    if(!movies){
+                        alert("no movie found!");
+                        return;
+                    } 
+
+                    html_text+="<thead><tr>"; 
+
+                    for(i=0;i<head.length;i++) {
+                        header=head[i];
+                        
+                        html_text+="<th>"+header+"</th>";
+                        
+                        
+                    }
+                    html_text+="</tr></thead>";
+
+                    html_text+="<tbody>";
+                    for(i=0;i<movies.length;i++) {
+                        movieNodeList = movies[i];
+                        html_text+="<tr>";
+                        
+                        let {Title, Year, Hubs, Gross, HomePage, Logo} = movieNodeList;
+
+                        if(Title | Year | Hubs | Gross | HomePage | Logo){
+
+                            html_text+="<td>" + Title + "</td>";
+                            html_text+="<td>" + Year + "</td>";
+                            if(Hubs.Hub.length>0){
+                                html_text+="<td><a><li><b>"+ Hubs.Hub[0] + "</b></li>";
+                                if(Hubs.Hub.length>1){
+                                    for(j=1; j<Hubs.Hub.length; j++){
+                                        html_text+="<li>"+ Hubs.Hub[j] + "</li>";
+                                    }
+                                }
+                                html_text+="</a></td>";
+                                    
+                            }else{
+                                html_text+="<td></td>"
+                            }
+                            html_text+="<td>" + Gross + "</td>";
+                            html_text+="<td nowrap><a href="+ HomePage +">" + HomePage +"</a></td>";
+                            html_text+="<td><img src='"+ Logo + "' height='"+100+"'></td>";
+
+                        }            
+    
+                        html_text+="</tr>";
+                    }
+
+                    html_text+="</tbody>"; 
+                    html_text+="</table>";
+                    html_text+="</body></html>"; 
+                }
+
+
+            }
+        
+        </script>
+
+        <div>
+            <h2>Enter URL for Highest-grossing films List JSON File </h2>
+
+            <form name="myform" method="POST" id="location">
+                <input type="text" name="URL" maxlength="100" size="25" value="" />
+                <br/>
+                <input type="button" name="submit" value="Submit Query" onClick="viewJSON(this.form)" />
+            </form>
+        </div>
+        
+    </body>
+</html>

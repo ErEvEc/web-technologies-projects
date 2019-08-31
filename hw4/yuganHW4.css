@@ -1,0 +1,16 @@
+div {
+    text-align: center;
+}
+
+h2 {
+    position: absolute;
+    top: 180px;
+    left: 30%;
+}
+
+form {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    line-height: 2;
+}
