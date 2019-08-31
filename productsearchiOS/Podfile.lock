@@ -1,0 +1,68 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Alamofire (4.8.2)
+  - FLKAutoLayout (0.2.1)
+  - INTULocationManager (4.3.2)
+  - McPicker (2.0.0)
+  - ORStackView (3.0.1):
+    - FLKAutoLayout (~> 0.2)
+  - SwiftSpinner (1.6.2)
+  - SwiftyJSON (4.3.0)
+  - Toast-Swift (4.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6)
+  - Alamofire
+  - INTULocationManager
+  - McPicker (~> 2.0.0)
+  - ORStackView (~> 3.0)
+  - SwiftSpinner
+  - SwiftyJSON (~> 4.0)
+  - Toast-Swift (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Alamofire
+    - FLKAutoLayout
+    - INTULocationManager
+    - McPicker
+    - ORStackView
+    - SwiftSpinner
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  FLKAutoLayout: 9db6b30c2008d230da608e62c607b11c23b942e6
+  INTULocationManager: e5dc524611b0cd582f473bc56cc8c389adb2f338
+  McPicker: 1d11ad8c07c337a16dd9397e45f321125304cbb0
+  ORStackView: a1bb52748cd0ae29891c140baf22ff8972fb363c
+  SwiftSpinner: 3a4c6dea425e5a31b908a8b1dd5dcd1ad4d96340
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+
+PODFILE CHECKSUM: e34d8d369172f8ae71e64c5d43004cca67ddc6b9
+
+COCOAPODS: 1.6.1
